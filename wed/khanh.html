@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width">
+     <meta name="description" content="Thiet ke web chuyen nghiep">
+     <meta name="keywords" content="web design, professional web design, thiet ke web, thiet ke web chuyen nghiep">
+     <meta name="author" content="Ngoc Minh">
+     <title>Tuấn Khanh Web Design | Liên hệ</title>
+     <link rel="stylesheet" href="./css/style.css">
+     <style>
+        body {
+          font-family: Arial, sans-serif;
+          background-color: #f4f4f4;
+          color: #333;
+          margin: 0;
+          padding: 0;
+        }
+
+        header {
+          background-color: #333;
+          color: #fff;
+          padding: 20px 0;
+        }
+
+        header h1 {
+          margin: 0;
+          text-align: center;
+        }
+
+        nav ul {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          text-align: center;
+        }
+
+        nav ul li {
+          display: inline;
+          margin-right: 20px;
+        }
+
+        nav ul li a {
+          color: #fff;
+          text-decoration: none;
+          padding: 10px 15px;
+          border-radius: 5px;
+          transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+          background-color: #555;
+        }
+
+        #newsletter {
+          background-color: #ddd;
+          padding: 20px;
+          text-align: center;
+        }
+
+        #newsletter input[type="email"] {
+          padding: 10px;
+          width: 40%;
+          border: 1px solid #999;
+          border-radius: 5px;
+          margin-right: 10px;
+        }
+
+        #newsletter button {
+          padding: 10px 20px;
+          background-color: #333;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+
+        #main {
+          background-color: #fff;
+          padding: 20px;
+          margin: 20px 0;
+          display: flex;
+          justify-content: space-between;
+        }
+
+        #main-col {
+          flex: 70%;
+        }
+
+        #main-col p {
+          margin-top: 0;
+        }
+
+        #sidebar {
+          flex: 25%;
+          background-color: #ddd;
+          padding: 20px;
+        }
+
+        #sidebar h3 {
+          margin-top: 0;
+          color: #333;
+        }
+
+        #sidebar p {
+          margin-bottom: 10px;
+          color: #555;
+        }
+
+        /* Thêm phần CSS để tô màu sắc cho form */
+        .quote input[type="text"],
+        .quote input[type="email"],
+        .quote textarea {
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 10px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          box-sizing: border-box; /* Đảm bảo kích thước tính cả border và padding */
+        }
+
+        .quote textarea {
+          height: 150px; /* Điều chỉnh chiều cao của textarea */
+        }
+
+        .quote button {
+          padding: 10px 20px;
+          background-color: #333;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+
+        .quote button:hover {
+          background-color: #555;
+        }
+     </style>
+  </head>
+  <body>
+   <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Công Ty ABC - Dịch Vụ Kế Toán và Tư Vấn Thuế</span></h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="trangchu.html">Trang chủ</a></li>
+            <li><a href="thongtin.html">Danh sách</a></li>
+            <li class="current"><a href="dichvu.html">Liên hệ </a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+   <section id="newsletter">
+      <div class="container">
+        <h1>Đăng ký để nhận thông báo mới từ chúng tôi</h1>
+        <form>
+          <input type="email" placeholder="Nhập Email...">
+          <button type="submit" class="button_1">Đăng ký</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="main">
+      <div class="container">
+        <article id="main-col">
+          <h1 class="page-title">Liên Hệ:</h1>
+          <ul id="services">
+            <li>
+              <p>Nếu bạn có bất kỳ câu hỏi hoặc muốn biết thêm thông tin, vui lòng liên hệ với chúng tôi qua:</p>
+            </li>
+            </li>
+            <li>
+              <div>
+                <p>Địa chỉ: 123 Đường ABC, Thành phố XYZ</p>
+                <p>Điện thoại: 0123 456 789</p>
+                <p>Email: info@congtyabc.com</p>
+              </div>
+              <h3>Hãy đăng ký dịch vụ của chúng tôi ngay hôm nay và trải nghiệm sự khác biệt!</h3>
+            </li>
+          </ul>
+        </article>
+
+        <aside id="sidebar">
+          <div class="dark">
+            <h3>Liên hệ</h3>
+            <form class="quote">
+  						<div>
+  							<label>Tên</label><br>
+  							<input type="text" placeholder="Tên">
+  						</div>
+  						<div>
+  							<label>Email</label><br>
+  							<input type="email" placeholder="Email">
+  						</div>
+  						<div>
+  							<label>Nội dung</label><br>
+  							<textarea placeholder="Nội dung"></textarea>
+  						</div>
+  						<button class="button_1" type="submit">Gửi</button>
+					</form>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <footer>
+    </footer>
+  </body>
+</html>
